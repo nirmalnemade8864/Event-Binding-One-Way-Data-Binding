@@ -1,0 +1,4 @@
+<p>{{'Server'}} with ID {{serverId}} is {{getServerStatus()}}</p>
+<p>{{ serverRefreshStatus }}</p>
+<button class="btn btn-primary" style="background-color: cornflowerblue;" [disabled]="!isRefreshAllowed" (click)="onServerRefresh()">Refresh</button>
+
